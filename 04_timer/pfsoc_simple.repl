@@ -1,0 +1,14 @@
+cpu: CPU.RiscV64 @ sysbus
+    cpuType: "rv64gc"
+    timeProvider: empty
+
+lim: Memory.MappedMemory @ sysbus 0x08000000
+    size: 0x40000
+
+dtim: Memory.MappedMemory @ sysbus 0x01000000
+    size: 0x2000
+
+uart: UART.NS16550 @ sysbus 0x20000000
+    -> cpu@0
+
+gpio2: GPIOPort.MPFS_GPIO @ sysbus 0x20122000

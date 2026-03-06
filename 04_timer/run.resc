@@ -1,0 +1,8 @@
+mach create "pfsoc"
+machine LoadPlatformDescription @F:\FPGA\Task5\workspace\pfsoc_baremetal\pfsoc_simple.repl
+
+sysbus LoadELF @F:\FPGA\Task5\workspace\pfsoc_baremetal\Debug\pfsoc_baremetal.elf
+
+showAnalyzer sysbus.uart
+
+start
