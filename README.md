@@ -42,7 +42,13 @@ Bare metal C firmware — UART Hello World from scratch.
 - 16550-compatible UART driver
 - **Verified working on Renode emulator**
 
-### 03_gpio *(coming soon)*
+### [03_gpio](./03_gpio/)
+Bare metal GPIO driver — LED blink from software.
+- Read-modify-write CFG register for pin direction
+- GPIO OUT register for pin control
+- 5x LED blink verified on Renode
+
+
 ### 04_timer *(coming soon)*
 ### 05_linux_boot *(future)*
 
@@ -94,7 +100,7 @@ Flash via SoftConsole + OpenOCD to the MPFS095T board.
 ```
 ✅ 01 — LED blink RTL (Libero SoC)
 ✅ 02 — UART bare metal (Renode verified)
-🔄 03 — GPIO driver
+✅ 03 — GPIO driver (Renode verified)
 🔄 04 — RISC-V CLINT timer + interrupts
 🔜 05 — Linux boot: HSS → U-Boot → OpenSBI → Kernel
 🔜 06 — Physical hardware testing on MPFS095T
