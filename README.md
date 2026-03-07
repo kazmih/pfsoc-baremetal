@@ -1,5 +1,5 @@
 # PolarFire SoC Bare Metal Development
-Bare metal firmware and RTL projects for the **Microchip PolarFire SoC (MPFS095T-FCSG325)**, built as part of an FPGA developer onboarding program.
+Bare metal firmware and RTL projects for the **Microchip PolarFire SoC (MPFS095T-FCSG325)**.
 > ⚠️ **Emulation Notice:** All firmware in this repository has been tested on **Renode** (hardware emulator bundled with SoftConsole). Physical hardware testing on the MPFS095T board is a future milestone.
 ---
 ## Hardware
