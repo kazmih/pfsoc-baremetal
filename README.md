@@ -84,10 +84,9 @@ Flash via SoftConsole + OpenOCD to the MPFS095T board.
 ---
 ## Roadmap
 ```
-✅ 01 — LED blink RTL (Libero SoC)
-✅ 02 — UART bare metal (Renode verified)
-✅ 03 — GPIO driver (Renode verified)
-✅ 04 — RISC-V CLINT timer + interrupts (Renode verified)
-🔜 05 — Linux boot: HSS → U-Boot → OpenSBI → Kernel
-🔜 06 — Physical hardware testing on MPFS095T
+01 — LED blink RTL (Libero SoC)
+02 — UART bare metal (Renode verified)
+03 — GPIO driver (Renode verified)
+04 — RISC-V CLINT timer + interrupts (Renode verified)
+🔜 05 — Physical hardware testing on MPFS095T
 ```
